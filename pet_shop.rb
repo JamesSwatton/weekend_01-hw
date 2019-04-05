@@ -59,3 +59,8 @@ def remove_pet_by_name(petshop, pet_name)
     pets_index += 1
   end
 end
+
+
+ def add_pet_to_stock(petshop, new_pet)
+   petshop[:pets] << new_pet
+ end
